@@ -1,0 +1,166 @@
+nav #logo {
+  max-width: 110px;
+  height: auto;
+}
+
+a, button:hover {
+  cursor: pointer;
+}
+
+b {
+  font-weight: bold;
+}
+
+footer {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  color: white;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-pattern {
+  color: white;
+  background-color: #d52856;
+}
+
+.btn-pattern:hover {
+  background-color: #b52249;
+  color: white;
+}
+
+.btn-card {
+  margin: 0 2.5%;
+  width: 95%;
+}
+
+#carousel-item1, #carousel-item2, #carousel-item3 {
+  background-repeat: no-repeat;
+}
+
+#carousel-item1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/homem-fazendo-flexao.jpg");
+}
+
+#carousel-item2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/academia.jpg");
+}
+
+#carousel-item3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mulher-fazendo-ioga.jpg");
+}
+
+.training-type-img {
+  width: 140px;
+  height: 140px;
+  transition-property: width height;
+  transition-duration: 1s;
+}
+
+.training-type-img:hover {
+  transition-property: width height;
+  transition-duration: 1s;
+  width: 200px;
+  height: 200px;
+}
+
+#parallax1, #parallax2 {
+  position: relative;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#parallax1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/trilha.jpg");
+}
+
+#parallax2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/treino-praia.jpg");
+}
+
+.quote {
+  position: absolute;
+  width: 100%;
+  padding: 6%;
+  text-align: center;
+}
+.quote .cite {
+  color: white;
+  font-size: 33px;
+  margin: 0 auto;
+}
+.quote .cite p {
+  margin: 0;
+  padding: 0;
+}
+
+.row-padding {
+  padding: 4rem 8rem;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+#col-md-4-card {
+  max-width: 30rem;
+}
+
+#formulario-contato {
+  padding: 1rem 7rem;
+}
+
+@media (max-width: 480px) {
+  .row-padding {
+    padding: 2rem 1rem;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  #parallax1, #parallax2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .quote {
+    align-items: center;
+  }
+  .quote .cite {
+    color: white;
+    font-size: 23px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .quote .cite p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+
+  #formulario-contato {
+    padding: 0;
+  }
+
+  footer {
+    padding: 0 3%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
